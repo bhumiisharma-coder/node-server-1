@@ -1,12 +1,8 @@
-const http = require("http");
-
-// Pehle server create karo
-const server = http.createServer((req, res) => {
-    console.log("Hello");
-    res.end("Server is working");
-});
-
-// Ab server ko listen karao
-server.listen(5000, () => {
-    console.log("Server is running on port 5000...");
-});
+const htttp = require("http");
+ htttp.createServer((req,res)=>{
+            console.log("server is running..ssss.") 
+            res.end("hello world i am from server")
+ })
+  .listen(5000,()=>{
+      console.log("server is running on port number 5000..ssss.zxzxzxgfgfgftytytytytysdssdsdstgfgf");
+  })
